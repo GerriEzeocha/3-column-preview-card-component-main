@@ -1,0 +1,29 @@
+$brightorange: hsl(31, 77%, 52%);
+$darkCyan: hsl(184, 100%, 22%);
+$vDarkCyan: hsl(179, 100%, 13%);
+$tWhite: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+$vlGray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+
+html{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: $vlGray;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 90rem;
+    min-width: 23.4375rem;
+    padding: 3rem;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}

@@ -1,0 +1,179 @@
+/*paragraphs*/
+/*(background, headings, buttons)*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 90rem;
+  min-width: 23.4375rem;
+  padding: 3rem;
+  margin: 0;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/*main container*/
+.container {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 70%;
+}
+
+/*category cards*/
+.cards {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cards img {
+  width: 30%;
+}
+
+.cards .title {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 2.1875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 0.5rem;
+}
+
+.cards .info {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  padding: 0rem 0.5rem 1.875rem 0rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.03125rem;
+}
+
+/*styling buttons*/
+.sedan-button, .suv-button, .lux-button {
+  text-align: center;
+  background: #f2f2f2;
+  font-size: 0.8125rem;
+  border-radius: 1.875rem;
+  width: 7.5rem;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sedan-button > p {
+  color: #e38826;
+}
+
+.sedan-button:hover {
+  cursor: pointer;
+  background: #e38826;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.sedan-button:hover p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.suv-button > p {
+  color: #006970;
+}
+
+.suv-button:hover {
+  cursor: pointer;
+  background: #006970;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.suv-button:hover p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.lux-button > p {
+  color: #004241;
+}
+
+.lux-button:hover {
+  cursor: pointer;
+  background: #004241;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.lux-button:hover p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/*sizing cards, responsiveness*/
+.sedans {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 12.5rem;
+          flex: 1 0 12.5rem;
+  background: #e38826;
+  border-top-left-radius: 0.4375rem;
+  border-bottom-left-radius: 0.4375rem;
+}
+
+.suvs {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 12.5rem;
+          flex: 1 0 12.5rem;
+  background: #006970;
+}
+
+.luxury {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 12.5rem;
+          flex: 1 0 12.5rem;
+  background: #004241;
+  border-top-right-radius: 0.4375rem;
+  border-bottom-right-radius: 0.4375rem;
+}
+
+.attribution {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 0.75rem;
+  color: gainsboro;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: gainsboro;
+}
+/*# sourceMappingURL=style.css.map */

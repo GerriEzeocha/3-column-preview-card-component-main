@@ -1,0 +1,33 @@
+/**tablets **/
+
+@media (max-width: 62em){
+    .sedans {
+        border-top-left-radius: 0.4375rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .suvs {
+        border-top-right-radius: 0.4375rem;
+    }
+
+    .luxury {
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 0.4375rem;
+        border-bottom-right-radius: 0.4375rem;
+    }
+}
+
+
+/**mobile**/
+@media (max-width: 42.5em) {
+    .sedans {
+        border-top-left-radius: 0.4375rem;
+        border-top-right-radius: 0.4375rem;
+    }
+
+    .suvs {
+        border-top-right-radius: 0rem;
+    }
+
+
+}
